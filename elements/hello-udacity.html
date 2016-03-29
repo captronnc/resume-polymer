@@ -1,0 +1,23 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+<dom-module id="hello-udacity">
+		<template>
+			<style type="text/css">
+				h1{
+					font-family: sans-serif;
+					color: #FF9900;
+					-webkit-text-stroke: 1px black;
+				}
+			</style>
+		<h1>Hello Udacity!</h1>
+		I am learning <span>{{course}}</span>
+		</template>
+
+	<script>
+		Polymer({
+			is: "hello-udacity",
+			ready: function() {
+			this.course = "front-end web development.";
+			}
+		});
+	</script>
+</dom-module>
