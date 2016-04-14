@@ -6,6 +6,16 @@ paper-scroll-header-panel {
   height: 100%;
 }
 
+/*.paper-scroll-header-panel-0 {
+    overflow: visible;
+}
+
+.paper-scroll-header-panel-0 #mainContainer.paper-scroll-header-panel {
+    overflow-x:  visible;
+    overflow-y: visible;
+
+}*/
+
 paper-item {
   display: block;
   height: 48px;
