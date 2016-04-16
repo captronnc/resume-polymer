@@ -6,6 +6,10 @@ paper-scroll-header-panel {
   height: 100%;
 }
 
+.paper-toolbar-0 {
+  background: #f5a623;
+}
+
 /*.paper-scroll-header-panel-0 {
     overflow: visible;
 }

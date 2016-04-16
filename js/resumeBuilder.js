@@ -121,14 +121,14 @@ var work = {
 		"employer": "TJCA",
 		"title": "Head Chef & Culinary Instructor",
 		"dates": "now",
-		"description": "Manager, cook, teacher.",
+		"description": "Planned lunch menus according to nutritional guidelines and regulations. Cooked and prepared meals according to standardized recipes. Provided customer service to students, parents, and staff to ensure quality and safety. Ordered food and supplies to meet needs of the operation.",
 		"location": "Mooresboro, NC, US"
 	},
 	{
 		"employer": "NASP",
 		"title": "Project Manager & Training Specialist",
 		"dates": "then",
-		"description": "Developer, analyst, instructor.",
+		"description": "Instructed Safety Auditor/Manager/Train-the-Trainer Certification Courses for industry professionals from around the world. Provided excellent customer service, trouble-shooting and technical support for digital products, training equipment, and computer software programs. Developed and delivered effective and interactive training presentations using Microsoft PowerPoint, and Adobe Acrobat. Increased attendance and referrals to training classes and events by providing dynamic, value-added experiences and creating strong relationships. Increase sales by managing data tracking system and providing analysis information to measure customer engagement through the company website. Co-authored, developed and documented standard operating procedures using Microsoft Word. Created brochures, sales and marketing publications using Microsoft Publisher.",
 		"location": "Shelby, NC, US"
 	}
 	]
