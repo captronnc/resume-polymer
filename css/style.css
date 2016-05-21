@@ -186,6 +186,7 @@ ul {
 
 img {
   padding: 10px;
+  width: 100%;
 }
 
 span {
@@ -194,6 +195,15 @@ span {
 
 #lets-connect {
   text-align: center;
+}
+
+.url {
+  font-size: smaller;
+  color: maroon;
+}
+
+.col-6 {
+  width: 50%;
 }
 
 /* Media queries to handle various device widths */

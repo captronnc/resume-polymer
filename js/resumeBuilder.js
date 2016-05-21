@@ -109,6 +109,19 @@ education.display = function() {
 		$(".education-entry:last").append(formattedSchoolMajor);
 		$(".education-entry:last").append(formattedSchoolURL);
 	}
+	// Education Online Classes
+	for (var course in education.onlineCourses) {
+
+		$(".education-entry:last").append(HTMLonlineClasses);
+
+		var formattedOnlineTitle = HTMLonlineTitle.replace("%data%", education.onlineCourses[course].title);
+		var formattedOnlineSchool = HTMLonlineSchool.replace("%data%", education.onlineCourses[course].school);
+		var formattedOnlineTitleSchool = formattedOnlineTitle + formattedOnlineSchool;
+		var formattedOnlineDates = HTMLonlineDates.replace("%data%", education.onlineCourses[course].date)
+
+		$(".education-entry:last").append(formattedOnlineTitleSchool);
+		$(".education-entry:last").append(formattedOnlineDates);
+	}
 };
 
 education.display();
@@ -163,14 +176,15 @@ var projects = {
 		"title": "WPI",
 		"dates": "2012",
 		"description": "informational website",
-		"images": [],
+		"images": ["images/wpi_800px.jpg"],
 		"url": "http://www.wpintergroup.org"
 	},
 	{
 		"title": "Portfolio",
 		"dates": "2016",
 		"description": "portfolio website",
-		"images": [],
+		"images": ["images/portfolio_screenshot_800px.jpg"],
+
 		"url": "http://www.http://captronnc.github.io/"
 	}
 	]
@@ -191,7 +205,7 @@ projects.display = function() {
 
 		if (projects.projects[project].images.length > 0) {
 			for (image in projects.projects[project].images) {
-				var formattedImage= HTMLprojectImage.replace("data%",projects.projects[project].images[image]);
+				var formattedImage= HTMLprojectImage.replace("%data%",projects.projects[project].images[image]);
 				$(".project-entry:last").append(formattedImage);
 			}
 		}
